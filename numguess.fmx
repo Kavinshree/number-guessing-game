@@ -1,0 +1,87 @@
+object numg: Tnumg
+  Left = 0
+  Top = 0
+  Caption = 'Number Guessing Game'
+  ClientHeight = 148
+  ClientWidth = 340
+  Fill.Color = xFFCBFDC7
+  Fill.Kind = Solid
+  Padding.Left = 1.000000000000000000
+  Padding.Top = 1.000000000000000000
+  Padding.Right = 1.000000000000000000
+  Padding.Bottom = 1.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object titlelabel: TLabel
+    StyledSettings = []
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 248.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'SimSun'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claBrown
+    Text = 'titlelabel'
+    TabOrder = 0
+  end
+  object confrimButton: TButton
+    StyledSettings = []
+    Position.X = 193.000000000000000000
+    Position.Y = 57.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Confrim Button'
+    TextSettings.Font.Family = 'SimSun'
+    TextSettings.Font.Size = 10.000000000000000000
+    TextSettings.FontColor = claBrown
+    TextSettings.FontColorForState.Hot = claBlack
+    TextSettings.Trimming = None
+    OnClick = confrimButtonClick
+  end
+  object helperlabel: TLabel
+    StyledSettings = []
+    Position.X = 24.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'SimSun'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claBrown
+    Text = 'helperlabel'
+    TabOrder = 2
+  end
+  object counterlabel: TLabel
+    StyledSettings = []
+    Position.X = 280.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'SimSun'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claBrown
+    Text = 'counterlabel'
+    TabOrder = 3
+  end
+  object numberEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    TextSettings.Font.Family = 'Segoe Script'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claBrown
+    Position.X = 24.000000000000000000
+    Position.Y = 57.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Size]
+  end
+end
